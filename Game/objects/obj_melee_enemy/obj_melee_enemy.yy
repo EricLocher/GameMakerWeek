@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_melee_enemy",
+    "path": "sprites/spr_melee_enemy/spr_melee_enemy.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "obj_enemy",
