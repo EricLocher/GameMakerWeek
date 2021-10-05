@@ -3,7 +3,7 @@
 if(b_cooldown == false)
 {
 	b_cooldown = true;
-	alarm[1] = 1 * room_speed;
+	alarm[1] = 1;
 	with(instance_create_layer(x, y, layer, Obj_Arrow))
 	{
 		direction = point_direction(x, y, mouse_x, mouse_y);

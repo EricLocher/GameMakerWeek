@@ -23,5 +23,3 @@ if(playerHealth <= 0){
 //y += yVel;
 
 WallCollision();
-
-

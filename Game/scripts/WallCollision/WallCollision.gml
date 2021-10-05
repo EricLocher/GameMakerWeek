@@ -27,6 +27,6 @@ function WallCollision(){
 
 
 	y += yVel;
-
+	
 	return _collision;
 }

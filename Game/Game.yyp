@@ -4,6 +4,7 @@
     {"id":{"name":"Spr_Col","path":"sprites/Spr_Col/Spr_Col.yy",},"order":0,},
     {"id":{"name":"Spr_HealthDrop","path":"sprites/Spr_HealthDrop/Spr_HealthDrop.yy",},"order":5,},
     {"id":{"name":"WallCollision","path":"scripts/WallCollision/WallCollision.yy",},"order":0,},
+    {"id":{"name":"Obj_ExpOrb","path":"objects/Obj_ExpOrb/Obj_ExpOrb.yy",},"order":4,},
     {"id":{"name":"t_Col","path":"tilesets/t_Col/t_Col.yy",},"order":0,},
     {"id":{"name":"Obj_test_enemy","path":"objects/Obj_test_enemy/Obj_test_enemy.yy",},"order":1,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":1,},
@@ -12,6 +13,8 @@
     {"id":{"name":"Spr_Arrow","path":"sprites/Spr_Arrow/Spr_Arrow.yy",},"order":4,},
     {"id":{"name":"spr_player_placeholder","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},"order":3,},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
+    {"id":{"name":"Spr_ExpOrb","path":"sprites/Spr_ExpOrb/Spr_ExpOrb.yy",},"order":6,},
+    {"id":{"name":"Obj_HealthPickUp","path":"objects/Obj_HealthPickUp/Obj_HealthPickUp.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

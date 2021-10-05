@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"9c245591-b8f7-4969-ac6f-6775c75fe2c4","path":"sprites/Spr_HealthDrop/Spr_HealthDrop.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9c245591-b8f7-4969-ac6f-6775c75fe2c4","path":"sprites/Spr_HealthDrop/Spr_HealthDrop.yy",},"LayerId":{"name":"533e24a5-9c82-43d9-8133-47572ab4d20b","path":"sprites/Spr_HealthDrop/Spr_HealthDrop.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_HealthDrop","path":"sprites/Spr_HealthDrop/Spr_HealthDrop.yy",},"resourceVersion":"1.0","name":"9c245591-b8f7-4969-ac6f-6775c75fe2c4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e78d6aaa-fac8-4a13-b31d-be5f0de10d91","path":"sprites/Spr_ExpOrb/Spr_ExpOrb.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e78d6aaa-fac8-4a13-b31d-be5f0de10d91","path":"sprites/Spr_ExpOrb/Spr_ExpOrb.yy",},"LayerId":{"name":"2388a64e-cad7-455e-9c5e-22ce1ba38b50","path":"sprites/Spr_ExpOrb/Spr_ExpOrb.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_ExpOrb","path":"sprites/Spr_ExpOrb/Spr_ExpOrb.yy",},"resourceVersion":"1.0","name":"e78d6aaa-fac8-4a13-b31d-be5f0de10d91","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Spr_HealthDrop","path":"sprites/Spr_HealthDrop/Spr_HealthDrop.yy",},
+    "spriteId": {"name":"Spr_ExpOrb","path":"sprites/Spr_ExpOrb/Spr_ExpOrb.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4c518b51-0f65-4ce2-bab7-e723811bb2ee","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9c245591-b8f7-4969-ac6f-6775c75fe2c4","path":"sprites/Spr_HealthDrop/Spr_HealthDrop.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3452d16b-9957-431a-ae2a-41945b62e84b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e78d6aaa-fac8-4a13-b31d-be5f0de10d91","path":"sprites/Spr_ExpOrb/Spr_ExpOrb.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Spr_HealthDrop","path":"sprites/Spr_HealthDrop/Spr_HealthDrop.yy",},
+    "parent": {"name":"Spr_ExpOrb","path":"sprites/Spr_ExpOrb/Spr_ExpOrb.yy",},
     "resourceVersion": "1.3",
-    "name": "Spr_HealthDrop",
+    "name": "Spr_ExpOrb",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"533e24a5-9c82-43d9-8133-47572ab4d20b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2388a64e-cad7-455e-9c5e-22ce1ba38b50","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Spr_HealthDrop",
+  "name": "Spr_ExpOrb",
   "tags": [],
   "resourceType": "GMSprite",
 }
