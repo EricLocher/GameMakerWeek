@@ -4,7 +4,7 @@
     "path": "texturegroups/Default",
   },
   "sequence": {
-    "spriteId": {"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},
+    "spriteId": {"name":"spr_melee_enemy","path":"sprites/spr_melee_enemy/spr_melee_enemy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -16,7 +16,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"07861695-adc7-427f-8147-dc59234f6c12","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f3e1f3f-f29a-411c-9c5f-a697b9831ae8","path":"sprites/spr_player/spr_player.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"9005a40c-5b1f-4549-8490-ce13f40257f9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b151cfae-3077-4d62-84b3-c9e99d6be2c7","path":"sprites/spr_melee_enemy/spr_melee_enemy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -33,9 +33,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},
+    "parent": {"name":"spr_melee_enemy","path":"sprites/spr_melee_enemy/spr_melee_enemy.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_player",
+    "name": "spr_melee_enemy",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -60,12 +60,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7f3e1f3f-f29a-411c-9c5f-a697b9831ae8","path":"sprites/spr_player/spr_player.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f3e1f3f-f29a-411c-9c5f-a697b9831ae8","path":"sprites/spr_player/spr_player.yy",},"LayerId":{"name":"290e5dc2-13d5-4861-a5dd-8da37387200e","path":"sprites/spr_player/spr_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"resourceVersion":"1.0","name":"7f3e1f3f-f29a-411c-9c5f-a697b9831ae8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b151cfae-3077-4d62-84b3-c9e99d6be2c7","path":"sprites/spr_melee_enemy/spr_melee_enemy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b151cfae-3077-4d62-84b3-c9e99d6be2c7","path":"sprites/spr_melee_enemy/spr_melee_enemy.yy",},"LayerId":{"name":"c431ae62-7fb9-475f-ad29-fa8e566aef90","path":"sprites/spr_melee_enemy/spr_melee_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_melee_enemy","path":"sprites/spr_melee_enemy/spr_melee_enemy.yy",},"resourceVersion":"1.0","name":"b151cfae-3077-4d62-84b3-c9e99d6be2c7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"290e5dc2-13d5-4861-a5dd-8da37387200e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c431ae62-7fb9-475f-ad29-fa8e566aef90","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_player",
+  "name": "spr_melee_enemy",
   "tags": [],
   "resourceType": "GMSprite",
 }
