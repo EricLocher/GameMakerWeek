@@ -1,5 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"Spr_Col","path":"sprites/Spr_Col/Spr_Col.yy",},"order":1,},
+    {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},"order":2,},
+    {"id":{"name":"Spr_Player","path":"sprites/Spr_Player/Spr_Player.yy",},"order":0,},
+    {"id":{"name":"t_Col","path":"tilesets/t_Col/t_Col.yy",},"order":0,},
+    {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":3,},
+    {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
