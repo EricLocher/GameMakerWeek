@@ -1,4 +1,4 @@
-function PlayerCollision(){
+function WallCollision(){
 
 	var _collision = false;
 
@@ -25,6 +25,8 @@ function PlayerCollision(){
 
 	}
 
+
 	y += yVel;
 
+	return _collision;
 }

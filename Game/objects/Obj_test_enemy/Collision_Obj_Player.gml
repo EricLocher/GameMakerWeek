@@ -1,0 +1,5 @@
+with (other){
+
+	DamagePlayer();
+	
+}
