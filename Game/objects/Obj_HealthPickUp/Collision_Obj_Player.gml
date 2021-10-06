@@ -1,8 +1,3 @@
-/// @description Heal player on collision
-
-with(other)
-{
-	HealPlayer();
-}
+other.HealPlayer();
 
 instance_destroy();

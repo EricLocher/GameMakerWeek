@@ -1,6 +1,6 @@
 /// @description Pathing
 
-if (mp_grid_path(global.grid, path, x, y, obj_player.x, obj_player.y, 1) && state == states.chase)
+if (mp_grid_path(global.grid, path, x, y, Obj_Player.x, Obj_Player.y, 1) && state == states.chase)
 {
 	path_start(path, moveSpeed, path_action_stop, false);
 }

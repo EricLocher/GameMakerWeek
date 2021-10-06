@@ -1,12 +1,14 @@
 function WallCollision(){
 
+tileSize = 16;
+
 	var _collision = false;
 
 	if(tilemap_get_at_pixel(collisionMap, x + xVel, y))
 	{
-		x -= x mod TILE_SIZE;
+		x -= x mod tileSize;
 		if(sign(xVel) == 1)
-			x += TILE_SIZE - 1;
+			x += tileSize - 1;
 		xVel = 0;
 		_collision = true;
 
@@ -17,9 +19,9 @@ function WallCollision(){
 
 	if(tilemap_get_at_pixel(collisionMap, x, y + yVel))
 	{
-		y -= y mod TILE_SIZE;
+		y -= y mod tileSize;
 		if(sign(yVel) == 1) 
-			y += TILE_SIZE - 1;
+			y += tileSize - 1;
 		yVel = 0;
 		_collision = true;
 

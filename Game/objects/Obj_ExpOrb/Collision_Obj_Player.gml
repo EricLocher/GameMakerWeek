@@ -1,3 +1,3 @@
-other.AddExp(size);
+other.AddExp(self.size);
 
-instance_destroy();	
+instance_destroy();
