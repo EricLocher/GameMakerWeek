@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_melee_enemy",
-    "path": "sprites/spr_melee_enemy/spr_melee_enemy.yy",
+    "name": "spr_ranged_enemy",
+    "path": "sprites/spr_ranged_enemy/spr_ranged_enemy.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,6 +30,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -38,7 +39,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_melee_enemy",
+  "name": "obj_ranged_enemy",
   "tags": [],
   "resourceType": "GMObject",
 }
