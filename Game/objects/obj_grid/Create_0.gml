@@ -8,4 +8,4 @@ var vCells = room_height div cellHeight;
 global.grid = mp_grid_create(0, 0, hCells, vCells, cellWidth, cellHeight);
 
 //Add the walls
-mp_grid_add_instances(global.grid, obj_solid, false);
+mp_grid_add_instances(global.grid, Obj_Solid, false);

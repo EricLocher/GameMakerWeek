@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_solid",
-    "path": "sprites/spr_solid/spr_solid.yy",
+    "name": "Spr_Solid",
+    "path": "sprites/Spr_Solid/Spr_Solid.yy",
   },
   "solid": true,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_solid",
+  "name": "Obj_Solid",
   "tags": [],
   "resourceType": "GMObject",
 }
