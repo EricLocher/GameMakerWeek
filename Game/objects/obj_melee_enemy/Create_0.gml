@@ -2,6 +2,7 @@ health = 2;
 
 state = states.idle
 aggroDistance = 200;
+
 pathingInterval = 0.5;
 moveSpeed = 2;
 

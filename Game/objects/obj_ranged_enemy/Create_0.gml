@@ -9,6 +9,7 @@ aggroDistance = 200;
 
 pathingInterval = 0.5;
 path = path_add();
+
 alarm[0] = room_speed * pathingInterval;
 alarm[1] = room_speed * attackSpeed;
 
