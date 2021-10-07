@@ -25,6 +25,8 @@ if(weaponEquiped == "Sword"){
 			sprite_index = spriteAttack.Left;
 		else if(direction == 270)
 			sprite_index = spriteAttack.Down;
+		audio_play_sound(Sou_SwordHit, 1, false);
+		//audio_play_sound_at(Sou_SwordHit, x, y, 0, 100, 300, 1, false, 2);
 	}
 }
 

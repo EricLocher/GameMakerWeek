@@ -1,4 +1,3 @@
-//Aggro
 var nearestPlayer = instance_nearest(x, y, Obj_Player);
 if (nearestPlayer != noone)
 {
@@ -7,6 +6,4 @@ if (nearestPlayer != noone)
 		state = states.chase;
 	}
 }
-
-//Animation
-Animate();
+Animate();   

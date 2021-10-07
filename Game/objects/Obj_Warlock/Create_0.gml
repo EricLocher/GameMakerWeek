@@ -34,7 +34,7 @@ function DamageEnemy(){
 			}
 		}
 		
-		
+		audio_play_sound(Sou_EnemyDeath, 1, false);
 		instance_destroy();	
 	}
 }
@@ -52,7 +52,7 @@ function Animate()
 		Spr_WarlockIdleRight,
 		Spr_WarlockIdleUp,
 		Spr_WarlockIdleLeft,
-		Spr_WarlockIdleDown		
+		Spr_WarlockIdleDown
 	];
 	walkSprites =
 	[
