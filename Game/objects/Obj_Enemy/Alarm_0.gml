@@ -1,5 +1,3 @@
-/// @description Pathing
-
 var nearestPlayer = instance_nearest(x, y, Obj_Player);
 if (nearestPlayer != noone)
 {

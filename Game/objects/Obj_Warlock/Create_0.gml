@@ -2,6 +2,7 @@ attackRange = 200;
 attackSpeed = 1; //Lower = faster
 moveSpeed = 1;
 enemyHealth = 3;
+iFrames = false;
 direction = random_range(0, 359);
 
 state = states.idle;

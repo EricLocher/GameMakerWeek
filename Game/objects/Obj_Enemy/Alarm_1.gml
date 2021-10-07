@@ -1,4 +1,4 @@
-/// @description iFrames Timer;
+/// @description iFrames
 iFrames = false;
-image_alpha = 1.0;
 moveSpeed = 2;
+image_alpha = 1.0;

@@ -1,14 +1,12 @@
 level = 0;
 
 allRooms = [
-	Room1,
-	Room2,
-	Room3]
+	Room1
+]
 
 selectedRooms = [
-	Room1,
-	Room2,
-	Room3]
+	Room1
+]
 
 alarm[0] = room_speed * 3;
 
