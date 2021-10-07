@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_BossIdleDown",
-    "path": "sprites/Spr_BossIdleDown/Spr_BossIdleDown.yy",
+    "name": "Spr_BossIdle",
+    "path": "sprites/Spr_BossIdle/Spr_BossIdle.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,6 +24,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

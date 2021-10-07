@@ -1,4 +1,4 @@
 /// @description iFrames
 iFrames = false;
-moveSpeed = 2;
+moveSpeed = 1.5;
 image_alpha = 1.0;

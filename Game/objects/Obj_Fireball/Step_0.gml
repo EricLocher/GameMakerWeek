@@ -27,12 +27,3 @@ if(abs(accX) < 300 && abs(accY) < 300){
 x += velX;
 y += velY;
 
-if(tilemap_get_at_pixel(collisionMap, x + speed, y))
-{
-	instance_destroy();
-}
-	
-if(tilemap_get_at_pixel(collisionMap, x, y + speed))
-{
-	instance_destroy();
-}

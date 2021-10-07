@@ -14,7 +14,6 @@ if(place_free(x + (xVel * collisionSpeed), y))
 x += xVel;
 if(place_free(x, y + (yVel * collisionSpeed)))
 y += yVel;
-//WallCollision();
 
 if(inputMagnitude != 0)
 {
