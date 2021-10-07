@@ -37,7 +37,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Arrow",
+  "name": "obj_Arrow",
   "tags": [],
   "resourceType": "GMObject",
 }

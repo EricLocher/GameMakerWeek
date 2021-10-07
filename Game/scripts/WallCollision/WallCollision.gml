@@ -10,7 +10,6 @@ tileSize = 16;
 		if(sign(xVel) == 1)
 			x += tileSize - 1;
 		xVel = 0;
-		_collision = true;
 
 	}
 
@@ -23,12 +22,11 @@ tileSize = 16;
 		if(sign(yVel) == 1) 
 			y += tileSize - 1;
 		yVel = 0;
-		_collision = true;
+	
 
 	}
 
-
 	y += yVel;
 	
-	return _collision;
+	return;
 }

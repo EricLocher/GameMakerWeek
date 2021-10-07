@@ -9,17 +9,17 @@ if(abs(accX) < 300 && abs(accY) < 300){
 	accX = accX / z;
 	accY = accY / z;
 
-	accX *= 0.2;
-	accY *= 0.2;
+	accX *= accSpeed;
+	accY *= accSpeed;
 
 	velX += accX;
 	velY += accY;
 	
 	z = sqrt((velX * velX)  + (velY * velY));
 	
-	if(z > 2){
-		velX = (velX / z) * 2;
-		velY = (velY / z) * 2;
+	if(z > maxSpeed){
+		velX = (velX / z) * maxSpeed;
+		velY = (velY / z) * maxSpeed;
 	}
 
 }

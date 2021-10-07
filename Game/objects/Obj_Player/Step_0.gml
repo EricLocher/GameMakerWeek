@@ -3,14 +3,13 @@ _Right = keyboard_check(ord("D"));
 _Up = keyboard_check(ord("W"));
 _Down = keyboard_check(ord("S"));
 
-InputDirection = point_direction(0, 0, _Right - _Left, _Down - _Up);
+inputDirection = point_direction(0, 0, _Right - _Left, _Down - _Up);
+inputMagnitude = (_Right - _Left != 0) || (_Down - _Up != 0);
 
-InputMagnitude = (_Right - _Left != 0) || (_Down - _Up != 0);
+//show_debug_message(inputDirection);
 
-//show_debug_message(InputDirection);
-
-xVel = lengthdir_x(InputMagnitude * playerStats.moveSpeed, InputDirection);
-yVel = lengthdir_y(InputMagnitude * playerStats.moveSpeed, InputDirection);
+xVel = lengthdir_x(inputMagnitude * playerStats.moveSpeed, inputDirection);
+yVel = lengthdir_y(inputMagnitude * playerStats.moveSpeed, inputDirection);
 
 
 if(playerHealth <= 0){
@@ -23,3 +22,21 @@ if(playerHealth <= 0){
 //y += yVel;
 
 WallCollision();
+
+if(inputMagnitude != 0)
+{
+	direction = inputDirection;
+	if(direction == 0)
+		sprite_index = spriteWalk.Right; 
+	else if(direction == 90)
+		sprite_index = spriteWalk.Up; 	
+	else if(direction == 180)
+		sprite_index = spriteWalk.Left;
+	else if(direction == 270)
+		sprite_index = spriteWalk.Down;	
+} 
+else if(!playerAttacking && inputMagnitude == 0){
+	image_index = 0;
+}
+
+

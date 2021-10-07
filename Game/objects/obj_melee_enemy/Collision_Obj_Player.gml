@@ -1,1 +1,3 @@
-other.DamagePlayer();
+
+if(!iFrames)
+	other.DamagePlayer();

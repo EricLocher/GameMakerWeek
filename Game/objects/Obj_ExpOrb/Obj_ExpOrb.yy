@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_ExpOrb",
+  "name": "obj_ExpOrb",
   "tags": [],
   "resourceType": "GMObject",
 }

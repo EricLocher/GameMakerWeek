@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_HealthPickUp",
+  "name": "obj_HealthPickUp",
   "tags": [],
   "resourceType": "GMObject",
 }

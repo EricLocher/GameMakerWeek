@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_placeholder",
-    "path": "sprites/spr_player_placeholder/spr_player_placeholder.yy",
+    "name": "Player_Walk_Down",
+    "path": "sprites/Player_Walk_Down/Player_Walk_Down.yy",
   },
   "solid": false,
   "visible": true,
