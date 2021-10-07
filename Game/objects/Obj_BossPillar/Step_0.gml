@@ -15,7 +15,12 @@ if(!destroyed) {
 		if(!instance_find(Obj_BossPillar, i).destroyed)
 		deadCheck = false;
 	}
-	if(deadCheck == true)
+	if(deadCheck == true) {
 		instance_destroy(Obj_Boss);
+		room_goto(RoomMenu);
+		Obj_RoomController.levelCurrent = 0;
+		instance_destroy(Obj_Player);
+		Obj_Camera.follow = instance_find(Obj_Player, 0);
+	}
 }
 

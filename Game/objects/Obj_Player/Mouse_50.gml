@@ -16,7 +16,7 @@ if(weaponEquiped == "Sword"){
 			
 		}
 		
-		
+		audio_play_sound(Sou_SwordHit, 1, false);
 		playerState = playerStates.attacking;
 		Animate();
 	}

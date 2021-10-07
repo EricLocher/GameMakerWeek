@@ -13,9 +13,10 @@ playerAttacking = false;
 weaponEquiped = "Sword";
 
 playerStats = {
-	maxHealth : 1000000,
+	maxHealth : 3,
 	moveSpeed : 2	
 }
+
 collisionSpeed = playerStats.moveSpeed + 2; 
 
 playerState = playerStates.walking;
@@ -27,6 +28,12 @@ function DamagePlayer(){
 		alarm[0] = 2 * room_speed;
 		alarm[2] = 1;
 		audio_play_sound(Sou_PlayerHurt, 2, false); 
+		if(playerHealth <= 0){
+			room_goto(RoomMenu);
+			Obj_RoomController.levelCurrent = 0;
+			instance_destroy();
+			Obj_Camera.follow = instance_find(Obj_Player, 0);
+		}
 	}
 }
 

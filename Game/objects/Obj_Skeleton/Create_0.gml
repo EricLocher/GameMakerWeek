@@ -46,6 +46,7 @@ function DamageEnemy(){
 		enemyHealth --;
 		if(enemyHealth <= 0){
 			instance_destroy();	
+			audio_play_sound(Sou_EnemyDeath, 1, false);
 		}
 	}
 }

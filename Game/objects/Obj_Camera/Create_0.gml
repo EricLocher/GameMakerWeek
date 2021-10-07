@@ -8,7 +8,7 @@ camera_set_proj_mat(camera, pm);
 
 view_camera[0] = camera;
 
-follow = Obj_Player;
+follow = instance_find(Obj_Player, 0);
 xTo = x;
 yTo = y;
 

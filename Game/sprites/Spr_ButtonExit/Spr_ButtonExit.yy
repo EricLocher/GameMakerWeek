@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"11f5078c-877e-4fb0-bce8-4e2b9622c5ad","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"11f5078c-877e-4fb0-bce8-4e2b9622c5ad","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"LayerId":{"name":"889f4758-ea67-4d48-8c8a-4ae80dfa9bbf","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Spr_ButtonExit","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"resourceVersion":"1.0","name":"11f5078c-877e-4fb0-bce8-4e2b9622c5ad","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1afa8f34-0324-433d-9623-5259e32902aa","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1afa8f34-0324-433d-9623-5259e32902aa","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"LayerId":{"name":"1c82f907-8941-4f69-94e7-ebeb45f54413","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Spr_ButtonExit","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"resourceVersion":"1.0","name":"1afa8f34-0324-433d-9623-5259e32902aa","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Spr_ButtonExit","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0ea3fb4a-7b54-42fc-8eca-7e54fed8d351","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"11f5078c-877e-4fb0-bce8-4e2b9622c5ad","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f0b4a6fe-bdf0-44c8-bfde-d57b7a36cef5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1afa8f34-0324-433d-9623-5259e32902aa","path":"sprites/Spr_ButtonExit/Spr_ButtonExit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,36 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"889f4758-ea67-4d48-8c8a-4ae80dfa9bbf","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1c82f907-8941-4f69-94e7-ebeb45f54413","tags":[],"resourceType":"GMImageLayer",},
   ],
-  "nineSlice": {
-    "left": 0,
-    "top": 0,
-    "right": 0,
-    "bottom": 0,
-    "guideColour": [
-      4294902015,
-      4294902015,
-      4294902015,
-      4294902015,
-    ],
-    "highlightColour": 1728023040,
-    "highlightStyle": 0,
-    "enabled": false,
-    "tileMode": [
-      0,
-      0,
-      0,
-      0,
-      0,
-    ],
-    "resourceVersion": "1.0",
-    "loadedVersion": null,
-    "resourceType": "GMNineSliceData",
-  },
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Buttons",
+    "path": "folders/Sprites/Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_ButtonExit",
