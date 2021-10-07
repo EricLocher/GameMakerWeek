@@ -18,11 +18,21 @@ if(abs(accX) < 300 && abs(accY) < 300){
 	z = sqrt((velX * velX)  + (velY * velY));
 	
 	if(z > 2){
-		velX = (velX / z) * 1.5;
-		velY = (velY / z) * 1.5;
+		velX = (velX / z) * 2;
+		velY = (velY / z) * 2;
 	}
 
 }
 
 x += velX;
 y += velY;
+
+if(tilemap_get_at_pixel(collisionMap, x + speed, y))
+{
+	instance_destroy();
+}
+	
+if(tilemap_get_at_pixel(collisionMap, x, y + speed))
+{
+	instance_destroy();
+}
