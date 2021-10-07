@@ -35,6 +35,7 @@
     {"id":{"name":"obj_melee_enemy","path":"objects/obj_melee_enemy/obj_melee_enemy.yy",},"order":0,},
     {"id":{"name":"obj_grid","path":"objects/obj_grid/obj_grid.yy",},"order":6,},
     {"id":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},"order":1,},
+    {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":11,},
     {"id":{"name":"spr_enemy_projectile","path":"sprites/spr_enemy_projectile/spr_enemy_projectile.yy",},"order":8,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":4,},
     {"id":{"name":"spr_ranged_enemy","path":"sprites/spr_ranged_enemy/spr_ranged_enemy.yy",},"order":6,},
