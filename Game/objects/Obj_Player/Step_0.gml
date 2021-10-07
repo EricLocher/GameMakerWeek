@@ -8,6 +8,7 @@ InputDirection = point_direction(0, 0, _Right - _Left, _Down - _Up);
 InputMagnitude = (_Right - _Left != 0) || (_Down - _Up != 0);
 
 //show_debug_message(InputDirection);
+//show_debug_message(InputMagnitude)
 
 xVel = lengthdir_x(InputMagnitude * playerStats.moveSpeed, InputDirection);
 yVel = lengthdir_y(InputMagnitude * playerStats.moveSpeed, InputDirection);

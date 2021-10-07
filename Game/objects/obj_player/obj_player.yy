@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_placeholder",
-    "path": "sprites/spr_player_placeholder/spr_player_placeholder.yy",
+    "name": "Spr_Player_Placeholder",
+    "path": "sprites/Spr_Player_Placeholder/Spr_Player_Placeholder.yy",
   },
   "solid": false,
   "visible": true,
@@ -9,7 +9,7 @@
     "name": "",
     "path": "",
   },
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
