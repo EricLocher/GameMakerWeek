@@ -10,4 +10,4 @@ global.grid = mp_grid_create(0, 0, hCells, vCells, cellWidth, cellHeight);
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 
 //Add the walls
-mp_grid_add_instances(global.grid, obj_solid, false);
+mp_grid_add_instances(global.grid, Obj_Solid, false);

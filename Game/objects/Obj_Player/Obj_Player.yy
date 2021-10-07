@@ -9,7 +9,7 @@
     "name": "",
     "path": "",
   },
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
