@@ -1,0 +1,5 @@
+enum playerStates 
+{
+	attacking,
+	walking
+}

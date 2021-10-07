@@ -1,4 +1,4 @@
-collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
+collisionMap = layer_tilemap_get_id(layer_get_id("No_walk"));
 
 iFrames = false;
 playerHealth = 3;
@@ -13,28 +13,12 @@ playerAttacking = false;
 weaponEquiped = "Sword";
 
 playerStats = {
-	maxHealth : 3,
+	maxHealth : 1000000,
 	moveSpeed : 2	
 }
+collisionSpeed = playerStats.moveSpeed + 2; 
 
-
-//Animations
-
-spriteWalk = {
-	Left: Player_Walk_Left,
-	Right: Player_Walk_Right,
-	Up: Player_Walk_Up,
-	Down: Player_Walk_Down
-}
-
-spriteAttack = {
-	Left: Player_Attack_Left,
-	Right: Player_Attack_Right,
-	Up: Player_Attack_Up,
-	Down: Player_Attack_Down
-}
-
-//Animations
+playerState = playerStates.walking;
 
 function DamagePlayer(){
 	if(iFrames == false){
@@ -60,3 +44,28 @@ function AddExp(amount){
 	}
 }
 
+
+function Animate()
+{
+	walkSprites =
+	[
+		Player_Walk_Right,
+		Player_Walk_Up,
+		Player_Walk_Left,
+		Player_Walk_Down
+	];
+	
+	attackSprites = 
+	[
+		Player_Attack_Right,
+		Player_Attack_Up,
+		Player_Attack_Left,
+		Player_Attack_Down
+	]
+	
+	var i = ((direction + 45) div 90) mod 4;
+	if(playerState == playerStates.walking)
+		sprite_index = walkSprites[i];
+	if(playerState == playerStates.attacking)
+		sprite_index = attackSprites[i];
+}

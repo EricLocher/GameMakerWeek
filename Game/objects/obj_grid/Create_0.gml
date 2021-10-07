@@ -11,3 +11,7 @@ collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 
 //Add the walls
 mp_grid_add_instances(global.grid, Obj_Solid, false);
+mp_grid_add_instances(global.grid, Obj_Slab, false);
+mp_grid_add_instances(global.grid, Obj_Slope, false);
+mp_grid_add_instances(global.grid, Obj_SlabCorner, false);
+mp_grid_add_instances(global.grid, Obj_Corner, false);

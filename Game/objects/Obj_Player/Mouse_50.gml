@@ -17,14 +17,8 @@ if(weaponEquiped == "Sword"){
 		}
 		
 		
-		if(direction == 0)
-			sprite_index = spriteAttack.Right; 
-		else if(direction == 90)
-			sprite_index = spriteAttack.Up; 	
-		else if(direction == 180)
-			sprite_index = spriteAttack.Left;
-		else if(direction == 270)
-			sprite_index = spriteAttack.Down;
+		playerState = playerStates.attacking;
+		Animate();
 	}
 }
 

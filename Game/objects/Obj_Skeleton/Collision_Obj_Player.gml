@@ -1,3 +1,4 @@
-/// @description Insert description here
-if(!iFrames)
+if(!iFrames) {
+	isAttacking = true;
 	other.DamagePlayer();
+}

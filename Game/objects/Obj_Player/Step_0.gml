@@ -10,20 +10,16 @@ inputMagnitude = (_Right - _Left != 0) || (_Down - _Up != 0);
 xVel = lengthdir_x(inputMagnitude * playerStats.moveSpeed, inputDirection);
 yVel = lengthdir_y(inputMagnitude * playerStats.moveSpeed, inputDirection);
 
-
-WallCollision();
+if(place_free(x + (xVel * collisionSpeed), y))
+x += xVel;
+if(place_free(x, y + (yVel * collisionSpeed)))
+y += yVel;
+//WallCollision();
 
 if(inputMagnitude != 0)
 {
 	direction = inputDirection;
-	if(direction == 0)
-		sprite_index = spriteWalk.Right; 
-	else if(direction == 90)
-		sprite_index = spriteWalk.Up; 	
-	else if(direction == 180)
-		sprite_index = spriteWalk.Left;
-	else if(direction == 270)
-		sprite_index = spriteWalk.Down;	
+	Animate();
 } 
 else if(!playerAttacking && inputMagnitude == 0){
 	image_index = 0;

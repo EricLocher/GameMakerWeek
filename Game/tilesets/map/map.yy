@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Tile_sheet",
-    "path": "sprites/Tile_sheet/Tile_sheet.yy",
-  },
+  "spriteId": null,
   "tileWidth": 32,
   "tileHeight": 32,
   "tilexoff": 0,

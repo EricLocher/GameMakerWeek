@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_enemy_placeholder",
-    "path": "sprites/Spr_enemy_placeholder/Spr_enemy_placeholder.yy",
+    "name": "Spr_BossIdleDown",
+    "path": "sprites/Spr_BossIdleDown/Spr_BossIdleDown.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_boss",
+  "name": "Obj_Boss",
   "tags": [],
   "resourceType": "GMObject",
 }

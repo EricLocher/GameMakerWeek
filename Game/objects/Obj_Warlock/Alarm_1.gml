@@ -6,6 +6,7 @@ if (nearestPlayer != noone)
 	if(point_distance(x, y, nearestPlayer.x, nearestPlayer.y) < attackRange)
 	{
 		ShootPlayer();	
+		isAttacking = true;
 	}
 }
 

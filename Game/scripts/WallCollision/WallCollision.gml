@@ -1,9 +1,9 @@
 function WallCollision(){
 
-tileSize = 16;
+tileSize = 32;
 
 	var _collision = false;
-
+	
 	if(tilemap_get_at_pixel(collisionMap, x + xVel, y))
 	{
 		x -= x mod tileSize;
