@@ -1,5 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":4,},
+    {"id":{"name":"Sou_EnemyDeath","path":"sounds/Sou_EnemyDeath/Sou_EnemyDeath.yy",},"order":5,},
+    {"id":{"name":"Spr_MenuSplash","path":"sprites/Spr_MenuSplash/Spr_MenuSplash.yy",},"order":23,},
     {"id":{"name":"Spr_Health","path":"sprites/Spr_Health/Spr_Health.yy",},"order":0,},
     {"id":{"name":"Obj_Slope","path":"objects/Obj_Slope/Obj_Slope.yy",},"order":1,},
     {"id":{"name":"Player_Walk_Up","path":"sprites/Player_Walk_Up/Player_Walk_Up.yy",},"order":16,},
@@ -66,7 +69,6 @@
     {"id":{"name":"Obj_Slab","path":"objects/Obj_Slab/Obj_Slab.yy",},"order":3,},
     {"id":{"name":"Spr_pillar4","path":"sprites/Spr_pillar4/Spr_pillar4.yy",},"order":2,},
     {"id":{"name":"Spr_WarlockWalkDown","path":"sprites/Spr_WarlockWalkDown/Spr_WarlockWalkDown.yy",},"order":5,},
-    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":4,},
     {"id":{"name":"Spr_SkeletonIdleDown","path":"sprites/Spr_SkeletonIdleDown/Spr_SkeletonIdleDown.yy",},"order":2,},
     {"id":{"name":"Obj_Warp","path":"objects/Obj_Warp/Obj_Warp.yy",},"order":8,},
     {"id":{"name":"Spr_WarlockIdleUp","path":"sprites/Spr_WarlockIdleUp/Spr_WarlockIdleUp.yy",},"order":3,},
@@ -82,7 +84,6 @@
     {"id":{"name":"Spr_vase","path":"sprites/Spr_vase/Spr_vase.yy",},"order":3,},
     {"id":{"name":"Obj_Rock3","path":"objects/Obj_Rock3/Obj_Rock3.yy",},"order":3,},
     {"id":{"name":"obj_HealthPickUp","path":"objects/obj_HealthPickUp/obj_HealthPickUp.yy",},"order":11,},
-    {"id":{"name":"RoomStart","path":"rooms/RoomStart/RoomStart.yy",},"order":0,},
     {"id":{"name":"Obj_Warlock","path":"objects/Obj_Warlock/Obj_Warlock.yy",},"order":2,},
     {"id":{"name":"Spr_Rock3","path":"sprites/Spr_Rock3/Spr_Rock3.yy",},"order":0,},
     {"id":{"name":"Obj_BossPillar","path":"objects/Obj_BossPillar/Obj_BossPillar.yy",},"order":18,},
@@ -110,9 +111,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
-    {"roomId":{"name":"RoomStart","path":"rooms/RoomStart/RoomStart.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

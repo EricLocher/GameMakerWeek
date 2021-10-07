@@ -1,7 +1,7 @@
 collisionMap = layer_tilemap_get_id(layer_get_id("No_walk"));
 
 iFrames = false;
-playerHealth = 3;
+playerHealth = 3; 
 b_cooldown = false;
 a_cooldown = false;
 neededExp = 2;
@@ -26,12 +26,13 @@ function DamagePlayer(){
 		iFrames = true;
 		alarm[0] = 2 * room_speed;
 		alarm[2] = 1;
+		audio_play_sound(Sou_PlayerHurt, 2, false); 
 	}
 }
 
 function HealPlayer(){
 	if(playerHealth < playerStats.maxHealth)
-	{
+	{               
 		playerHealth ++;
 	}
 }

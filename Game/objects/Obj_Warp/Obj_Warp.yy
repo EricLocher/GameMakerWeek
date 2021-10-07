@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "Spr_Warp",
+    "path": "sprites/Spr_Warp/Spr_Warp.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
